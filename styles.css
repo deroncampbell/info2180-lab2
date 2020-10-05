@@ -1,11 +1,10 @@
-<html>
 <head>
 <link rel="stylesheet" href="stles.css">
 </head>
 
 .grid-container{
   display: grid;
-  grid-template-columns: 50px 50px
+  grid-template-columns: 600px 360px
   grid-template-rows: auto;
   grid-template-areas:'header' 'main right' 'footer'
 }
@@ -133,5 +132,3 @@ footer{
   color: #FFFFFF;
   padding: 10px;
 }
-
-</html>
